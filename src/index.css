@@ -1,0 +1,17 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://2.bp.blogspot.com/-dYAD4XzKmFo/W7CDSqo_N-I/AAAAAAAAHSM/t7fUeKR2lykjmqn1Q3mAehzFr6nD1w2iwCLcBGAs/s1920/neymar-jr-fifa-19-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+}
