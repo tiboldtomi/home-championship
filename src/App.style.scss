@@ -1,6 +1,58 @@
-.main-container {
+.teams-container {
     position: absolute;
-    top: 20%;
-    left: 10%;
-    transform: translate(-10%, -20%);
+    top: 120px;
+    left: 150px;
+    opacity: 0;
+    animation: teamsAnim .8s ease .5s forwards;
 }
+
+.tabella-container {
+    position: absolute;
+    top: 120px;
+    left: 800px;
+    opacity: 0;
+    animation: tabellaAnim .8s ease 1.1s forwards;
+}
+
+.matches-container {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: matchesAnim .8s ease 1.7s forwards;
+}
+
+@keyframes teamsAnim {
+    0% {
+        opacity: 0;
+        left: -800px;
+    }
+    100% {
+        opacity: 1;
+        left: 150px;
+    }
+}
+
+@keyframes tabellaAnim {
+    0% {
+        opacity: 0;
+        left: 1750px;
+    }
+    100% {
+        opacity: 1;
+        left: 800px;
+    }
+}
+
+@keyframes matchesAnim {
+    0% {
+        opacity: 0;
+        top: 1400px;
+    }
+    100% {
+        opacity: 1;
+        top: 450px;
+    }
+}
+

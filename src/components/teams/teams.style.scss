@@ -1,8 +1,7 @@
-.main {
+.teams-main {
     position: relative;
     background: #048e00;
     background-image: linear-gradient(145deg, rgba(0,0,0,0), rgba(0,0,0,.25));
-    max-width: 500px;
     color: #fff;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border: 2px solid #fff;
@@ -24,19 +23,31 @@
 }
 
 .table-title {
-    font-size: 32px;
-    line-height: 1.5;
-}
-
-.table-title--secondary {
     font-size: 24px;
     line-height: 1.5;
 }
 
-.table-data {
+.table-title--secondary {
     font-size: 18px;
-    line-height: 2;
-    color: #aaa;
+    line-height: 1.5;
+}
+
+.table-data {
+    font-size: 16px;
+    line-height: 2.5;
+    color: #fff;
+}
+
+.team-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.team-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

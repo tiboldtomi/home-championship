@@ -1,0 +1,66 @@
+.tabella-main {
+    position: relative;
+    background: #048e00;
+    background-image: linear-gradient(145deg, rgba(0,0,0,0), rgba(0,0,0,.25));
+    color: #fff;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+}
+
+.tabella-title {
+    position: relative;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.tabella-infos {
+    position: relative;
+    font-size: 18px;
+    line-height: 2;
+    display: flex;
+}
+
+.tabella-infos div {
+    flex-grow: 1;
+    border-right: 2px solid #fff;
+    text-align: center;
+    font-size: 16px;
+
+    &:nth-child(1) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    &:nth-child(2) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    &:nth-child(3) {
+        min-width: 150px;
+        max-width: 150px;
+    }
+    &:nth-child(4) {
+        min-width: 150px;
+        max-width: 150px;
+    }
+    &:nth-child(5) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    &:nth-child(6) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    &:nth-child(7) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    &:nth-child(8) {
+        min-width: 70px;
+        max-width: 70px;
+        border-right: none;
+    }
+}
