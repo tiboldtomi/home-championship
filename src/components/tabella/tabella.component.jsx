@@ -7,27 +7,27 @@ class Tabella extends Component {
 
         this.state = {
             teams: [
-                { id: 0, name: 'Tibi', team: 'Manchester United', logo: 'logos/manutd.png', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
-                { id: 1, name: 'Tibi', team: 'Real Madrid', logo: 'logos/realmadrid.png', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
-                { id: 2, name: 'Bence', team: 'Juventus', logo: 'logos/juventus.png', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
-                { id: 3, name: 'Bence', team: 'Manchester City', logo: 'logos/mancity.png', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
-                { id: 4, name: 'Tomi', team: 'Paris Saint Germain', logo: 'logos/psg.png', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
-                { id: 5, name: 'Tomi', team: 'FC Barcelona', logo: 'logos/barcelona.png', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { id: 0, name: 'Tibi', team: 'Manchester United', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { id: 1, name: 'Tibi', team: 'Real Madrid', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { id: 2, name: 'Bence', team: 'Juventus', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { id: 3, name: 'Bence', team: 'Manchester City', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { id: 4, name: 'Tomi', team: 'Paris Saint Germain', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { id: 5, name: 'Tomi', team: 'FC Barcelona', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
             ]
         };
     }
 
     renderRow = (row, index) => {
         let bgColor;
-        switch(index + 1) {
+        switch (index + 1) {
             case 1: bgColor = 'gold';
-            break;
+                break;
             case 2: bgColor = 'silver';
-            break;
+                break;
             case 3: bgColor = '#b8860b';
-            break;
+                break;
             default: bgColor = '#fff';
-            break;
+                break;
         };
         return (
             <div className="tabella-infos">
