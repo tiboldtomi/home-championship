@@ -1,5 +1,6 @@
 import './tabella.style.scss';
 import React, { Component } from 'react';
+import Emitter from '../../helpers/emitter.class';
 
 class Tabella extends Component {
     constructor(props) {
@@ -15,6 +16,32 @@ class Tabella extends Component {
                 { id: 5, name: 'Tomi', team: 'FC Barcelona', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
             ]
         };
+    }
+
+    componentWillMount() {
+        Emitter.on('ScoreChanged', (result) => this.scoreChanged(result));
+    }
+
+    scoreChanged = (result) => {
+        let _teams = [...this.state.teams];
+        _teams.forEach(row => {
+            if (row.team === result.team1.name) {
+                row.matches += 1;
+                row.scored += parseInt(result.team1.score);
+                row.got += parseInt(result.team2.score);
+                row.gd = row.scored - row.got;
+                result.team1.score > result.team2.score ? row.point += 3 : result.team1.score === result.team2.score && (row.point += 1);
+            }
+            else if (row.team === result.team2.name) {
+                row.matches += 1;
+                row.scored += parseInt(result.team2.score);
+                row.got += parseInt(result.team1.score);
+                row.gd = row.scored - row.got;
+                result.team2.score > result.team1.score ? row.point += 3 : result.team2.score === result.team1.score && (row.point += 1);
+            }
+        });
+        _teams.sort((a,b) => b.point - a.point !== 0 ? b.point - a.point : b.gd - a.gd);
+        this.setState({ teams: _teams });
     }
 
     renderRow = (row, index) => {

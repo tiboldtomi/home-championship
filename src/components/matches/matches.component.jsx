@@ -35,22 +35,20 @@ class Matches extends Component {
 
     renderMatches = () => {
         const { matches, activeIndex } = this.state;
-        return (
-            <div>
-                {matches[activeIndex].map(match => <Match match={match} />)}
-            </div>
-        );
+        let _matches = [[], [], [], []];
+        matches.forEach((round, index) => {
+            round.forEach(match => _matches[index].push(<Match match={match} display={index !== activeIndex && 'none'} />));
+        });
+        return _matches;
     }
 
     render() {
-        const { activeIndex } = this.state;
+        const { activeIndex, matches } = this.state;
         return (
             <div className="matches-main">
                 <div className="matches-title">{'Fordulók'}</div>
                 <div className="matches-rounds">
-                    {
-                        [0, 1, 2, 3].forEach(i => (<div onClick={() => this.setState({ activeIndex: i })} className={activeIndex === i && 'active'}>{`${i + 1}. forduló`}</div>))
-                    }
+                    {matches.map((match, i) => <div onClick={() => this.setState({ activeIndex: i })} className={activeIndex === i && 'active'}>{`${i + 1}. forduló`}</div>)}
                 </div>
                 <div>
                     {this.renderMatches()}
