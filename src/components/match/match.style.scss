@@ -4,7 +4,7 @@
     line-height: 3;
     border-bottom: 2px solid white;
     display: flex;
-    &:last-child {
+    &:nth-child(3n) {
         border-bottom: none;
     }
 }
@@ -25,6 +25,19 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.matches-team--left div {
+    margin-left: 10px;
+}
+
+.matches-team--right div {
+    margin-right: 10px;
+}
+
+.matches-team--left img,
+.matches-team--right img {
+    margin: 0;
 }
 
 .matches-separator {

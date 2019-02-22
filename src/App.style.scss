@@ -1,9 +1,17 @@
+.navigation-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: navAnim .5s ease .5s forwards;
+}
+
 .teams-container {
     position: absolute;
     top: 120px;
-    left: 150px;
+    left: 200px;
     opacity: 0;
-    animation: teamsAnim .8s ease .5s forwards;
+    animation: teamsAnim .5s ease 1s forwards;
 }
 
 .tabella-container {
@@ -11,7 +19,7 @@
     top: 120px;
     left: 800px;
     opacity: 0;
-    animation: tabellaAnim .8s ease 1.1s forwards;
+    animation: tabellaAnim .5s ease 1.5s forwards;
 }
 
 .matches-container {
@@ -20,7 +28,18 @@
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
-    animation: matchesAnim .8s ease 1.7s forwards;
+    animation: matchesAnim .5s ease 2s forwards;
+}
+
+@keyframes navAnim {
+    0% {
+        opacity: 0;
+        top: -100px;
+    }
+    100% {
+        opacity: 1;
+        top: 0;
+    }
 }
 
 @keyframes teamsAnim {
@@ -30,7 +49,7 @@
     }
     100% {
         opacity: 1;
-        left: 150px;
+        left: 200px;
     }
 }
 

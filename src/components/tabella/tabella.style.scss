@@ -6,7 +6,7 @@
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border: 2px solid #fff;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    box-shadow: 5px 12px 20px -3px rgba(0,0,0,.4);
 }
 
 .tabella-title {
@@ -19,9 +19,13 @@
 
 .tabella-infos {
     position: relative;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2;
     display: flex;
+}
+
+.tabella-infos:nth-child(2) {
+    border-bottom: 2px solid #fff;
 }
 
 .tabella-infos div {

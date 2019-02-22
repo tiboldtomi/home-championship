@@ -9,7 +9,7 @@ class App extends Component {
     render() {
         return (
             <div>
-                <Navigation />
+                <div className="navigation-container"><Navigation /></div>
                 <div className="teams-container"><Teams /></div>
                 <div className="tabella-container"><Tabella /></div>
                 <div className="matches-container"><Matches /></div>

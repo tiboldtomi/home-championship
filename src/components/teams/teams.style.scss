@@ -6,48 +6,84 @@
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border: 2px solid #fff;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    box-shadow: 5px 12px 20px -3px rgba(0,0,0,.4);
 }
 
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    border-radius: 5px;
-    border-style: hidden;
+.teams-title {
+    position: relative;
+    font-size: 24px;
+    line-height: 2;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
 
-    td {
-        border: 1px solid #fff;
-        text-align: center;
-        padding: 0 30px;
+.teams-infos {
+    position: relative;
+    font-size: 20px;
+    line-height: 2;
+    display: flex;
+    border-bottom: 2px solid #fff;
+}
+
+.teams-infos div {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 2px solid #fff;
+
+    &:nth-child(1) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    &:nth-child(2) {
+        min-width: 200px;
+        max-width: 200px;
+    }
+    &:nth-child(3) {
+        min-width: 200px;
+        max-width: 200px;
+        border-right: none;
     }
 }
 
-.table-title {
-    font-size: 24px;
-    line-height: 1.5;
-}
-
-.table-title--secondary {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
-.table-data {
+.teams-content {
+    position: relative;
     font-size: 16px;
     line-height: 2.5;
-    color: #fff;
+    display: flex;
+    border-bottom: 2px solid #fff;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.teams-content div {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:nth-child(1) {
+        min-width: 100px;
+        max-width: 100px;
+    }
+    &:nth-child(2) {
+        min-width: 200px;
+        max-width: 200px;
+    }
+    &:nth-child(3) {
+        min-width: 200px;
+        max-width: 200px;
+        border-right: none;
+    }
 }
 
 .team-logo {
     width: 30px;
     height: 30px;
     margin-right: 5px;
-}
-
-.team-cell {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
