@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/home-championship/static/css/main.6728865a.chunk.css"
   },
   {
-    "revision": "ad6e9934ea67b2d0f9bf6043fe76d63e",
+    "revision": "160d4be678e63e21f6c52b8a3e3af5aa",
     "url": "/home-championship/index.html"
   }
 ];
