@@ -8,23 +8,23 @@
 
 .teams-container {
     position: absolute;
-    top: 120px;
-    left: 200px;
+    top: 12vh;
+    left: 10vw;
     opacity: 0;
     animation: teamsAnim .5s ease 1s forwards;
 }
 
 .tabella-container {
     position: absolute;
-    top: 120px;
-    left: 800px;
+    top: 12vh;
+    left: 40vw;
     opacity: 0;
     animation: tabellaAnim .5s ease 1.5s forwards;
 }
 
 .matches-container {
     position: absolute;
-    top: 450px;
+    bottom: 20vh;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -49,7 +49,7 @@
     }
     100% {
         opacity: 1;
-        left: 200px;
+        left: 10vw;
     }
 }
 
@@ -60,18 +60,18 @@
     }
     100% {
         opacity: 1;
-        left: 800px;
+        left: 40vw;
     }
 }
 
 @keyframes matchesAnim {
     0% {
         opacity: 0;
-        top: 1400px;
+        bottom: -1400px;
     }
     100% {
         opacity: 1;
-        top: 450px;
+        bottom: 20vh;
     }
 }
 

@@ -7,11 +7,13 @@
     border: 2px solid #fff;
     border-radius: 5px;
     box-shadow: 5px 12px 20px -3px rgba(0,0,0,.4);
+    width: 46vw;
+    font-size: 3vh;
 }
 
 .tabella-title {
     position: relative;
-    font-size: 24px;
+    font-size: 1em;
     line-height: 1.5;
     text-align: center;
     border-bottom: 2px solid white;
@@ -19,8 +21,6 @@
 
 .tabella-infos {
     position: relative;
-    font-size: 20px;
-    line-height: 2;
     display: flex;
 }
 
@@ -32,39 +32,40 @@
     flex-grow: 1;
     border-right: 2px solid #fff;
     text-align: center;
-    font-size: 16px;
+    font-size: 0.6em;
+    line-height: 2;
 
     &:nth-child(1) {
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 5vw;
+        max-width: 5vw;
     }
     &:nth-child(2) {
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 5vw;
+        max-width: 5vw;
     }
     &:nth-child(3) {
-        min-width: 150px;
-        max-width: 150px;
+        min-width: 7.5vw;
+        max-width: 7.5vw;
     }
     &:nth-child(4) {
-        min-width: 150px;
-        max-width: 150px;
+        min-width: 7.5vw;
+        max-width: 7.5vw;
     }
     &:nth-child(5) {
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 5vw;
+        max-width: 5vw;
     }
     &:nth-child(6) {
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 5vw;
+        max-width: 5vw;
     }
     &:nth-child(7) {
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 6vw;
+        max-width: 6vw;
     }
     &:nth-child(8) {
-        min-width: 70px;
-        max-width: 70px;
+        min-width: 4vw;
+        max-width: 4vw;
         border-right: none;
     }
 }

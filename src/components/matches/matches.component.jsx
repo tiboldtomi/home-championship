@@ -39,7 +39,7 @@ class Matches extends Component {
         let i = -activeIndex;
         matches.forEach(round => {
             _matches.push(
-                <div className="matches-animated-container" style={{ left: `${i * 800}px` }}>
+                <div className="matches-animated-container" style={{ left: `${i * 42}vw` }}>
                     {round.map(match => <Match match={match} />)}
                 </div>
             );

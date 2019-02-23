@@ -59,13 +59,13 @@ class Tabella extends Component {
         return (
             <div className="tabella-infos">
                 <div style={{ color: bgColor }}>{`${index + 1}.`}</div>
-                <div>{row.name}</div>
-                <div>{row.team}</div>
-                <div>{row.matches}</div>
-                <div>{row.scored}</div>
-                <div>{row.got}</div>
-                <div>{row.gd}</div>
-                <div>{row.point}</div>
+                <div className="tabella-content">{row.name}</div>
+                <div className="tabella-content">{row.team}</div>
+                <div className="tabella-content">{row.matches}</div>
+                <div className="tabella-content">{row.scored}</div>
+                <div className="tabella-content">{row.got}</div>
+                <div className="tabella-content">{row.gd}</div>
+                <div className="tabella-content">{row.point}</div>
             </div>
         );
     }

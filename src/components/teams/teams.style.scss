@@ -7,20 +7,22 @@
     border: 2px solid #fff;
     border-radius: 5px;
     box-shadow: 5px 12px 20px -3px rgba(0,0,0,.4);
+    width: 25vw;
+    font-size: 3vh;
 }
 
 .teams-title {
     position: relative;
-    font-size: 24px;
-    line-height: 2;
+    font-size: 1em;
+    line-height: 1.5;
     text-align: center;
     border-bottom: 2px solid white;
 }
 
 .teams-infos {
     position: relative;
-    font-size: 20px;
-    line-height: 2;
+    font-size: .8em;
+    line-height: 1.5;
     display: flex;
     border-bottom: 2px solid #fff;
 }
@@ -31,23 +33,23 @@
     border-right: 2px solid #fff;
 
     &:nth-child(1) {
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 5vw;
+        max-width: 5vw;
     }
     &:nth-child(2) {
-        min-width: 200px;
-        max-width: 200px;
+        min-width: 10vw;
+        max-width: 10vw;
     }
     &:nth-child(3) {
-        min-width: 200px;
-        max-width: 200px;
+        min-width: 10vw;
+        max-width: 10vw;
         border-right: none;
     }
 }
 
 .teams-content {
     position: relative;
-    font-size: 16px;
+    font-size: .6em;
     line-height: 2.5;
     display: flex;
     border-bottom: 2px solid #fff;
@@ -66,23 +68,23 @@
     align-items: center;
 
     &:nth-child(1) {
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 5vw;
+        max-width: 5vw;
     }
     &:nth-child(2) {
-        min-width: 200px;
-        max-width: 200px;
+        min-width: 10vw;
+        max-width: 10vw;
     }
     &:nth-child(3) {
-        min-width: 200px;
-        max-width: 200px;
+        min-width: 10vw;
+        max-width: 10vw;
         border-right: none;
     }
 }
 
 .team-logo {
-    width: 30px;
-    height: 30px;
+    width: 1.8em;
+    height: 1.8em;
     margin-right: 5px;
 }
 

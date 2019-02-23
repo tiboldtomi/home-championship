@@ -1,7 +1,7 @@
 .matches-match {
     position: relative;
-    font-size: 16px;
-    line-height: 3;
+    font-size: 1.6vh;
+    line-height: 3.5;
     border-bottom: 2px solid white;
     display: flex;
     &:nth-child(3n) {
@@ -11,8 +11,8 @@
 
 .matches-team--left {
     flex-grow: 1;
-    min-width: 390px;
-    max-width: 390px;
+    min-width: 21vw;
+    max-width: 21vw;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -20,8 +20,8 @@
 
 .matches-team--right {
     flex-grow: 1;
-    min-width: 390px;
-    max-width: 390px;
+    min-width: 21vw;
+    max-width: 21vw;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -42,8 +42,8 @@
 
 .matches-separator {
     flex-grow: 1;
-    min-width: 20px;
-    max-width: 20px;
+    min-width: 1vw;
+    max-width: 1vw;
     text-align: center;
 }
 
@@ -52,11 +52,11 @@
     box-shadow: none;
     outline: none;
     border: none;
-    width: 50px;
-    height: 32px;
-    margin: 0 20px;
+    width: 3em;
+    height: 2em;
+    margin: 0 1vw;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
     color: #fff;
     background: #004d1a;
     border: 1px solid #fff;
