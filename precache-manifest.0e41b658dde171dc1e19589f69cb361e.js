@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/home-championship/static/js/runtime~main.577c4fa8.js"
   },
   {
-    "revision": "661124b68db9b58f41d1",
-    "url": "/home-championship/static/js/main.661124b6.chunk.js"
+    "revision": "605867e4b1f509ea551e",
+    "url": "/home-championship/static/js/main.605867e4.chunk.js"
   },
   {
     "revision": "d04e85d438a19e2d5f41",
     "url": "/home-championship/static/js/2.d04e85d4.chunk.js"
   },
   {
-    "revision": "661124b68db9b58f41d1",
-    "url": "/home-championship/static/css/main.aec6f3f5.chunk.css"
+    "revision": "605867e4b1f509ea551e",
+    "url": "/home-championship/static/css/main.6728865a.chunk.css"
   },
   {
-    "revision": "61de8165fe3e2d3e0d2488335b51c7a7",
+    "revision": "ad6e9934ea67b2d0f9bf6043fe76d63e",
     "url": "/home-championship/index.html"
   }
 ];

@@ -1,13 +1,13 @@
 {
-  "main.css": "/home-championship/static/css/main.aec6f3f5.chunk.css",
-  "main.js": "/home-championship/static/js/main.661124b6.chunk.js",
-  "main.js.map": "/home-championship/static/js/main.661124b6.chunk.js.map",
+  "main.css": "/home-championship/static/css/main.6728865a.chunk.css",
+  "main.js": "/home-championship/static/js/main.605867e4.chunk.js",
+  "main.js.map": "/home-championship/static/js/main.605867e4.chunk.js.map",
   "runtime~main.js": "/home-championship/static/js/runtime~main.577c4fa8.js",
   "runtime~main.js.map": "/home-championship/static/js/runtime~main.577c4fa8.js.map",
   "static/js/2.d04e85d4.chunk.js": "/home-championship/static/js/2.d04e85d4.chunk.js",
   "static/js/2.d04e85d4.chunk.js.map": "/home-championship/static/js/2.d04e85d4.chunk.js.map",
   "index.html": "/home-championship/index.html",
-  "precache-manifest.17722efed3a4401fe5a5de799fb2a309.js": "/home-championship/precache-manifest.17722efed3a4401fe5a5de799fb2a309.js",
+  "precache-manifest.0e41b658dde171dc1e19589f69cb361e.js": "/home-championship/precache-manifest.0e41b658dde171dc1e19589f69cb361e.js",
   "service-worker.js": "/home-championship/service-worker.js",
-  "static/css/main.aec6f3f5.chunk.css.map": "/home-championship/static/css/main.aec6f3f5.chunk.css.map"
+  "static/css/main.6728865a.chunk.css.map": "/home-championship/static/css/main.6728865a.chunk.css.map"
 }
