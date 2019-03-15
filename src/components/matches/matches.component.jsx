@@ -11,23 +11,23 @@ class Matches extends Component {
             matches: [
                 [
                     { team1: { name: 'Paris Saint Germain', logo: 'logos/psg.png' }, team2: { name: 'Juventus', logo: 'logos/juventus.png' } },
-                    { team1: { name: 'Manchester United', logo: 'logos/manutd.png' }, team2: { name: 'Paris Saint Germain', logo: 'logos/psg.png' } },
-                    { team1: { name: 'Juventus', logo: 'logos/juventus.png' }, team2: { name: 'Manchester United', logo: 'logos/manutd.png' } }
+                    { team1: { name: 'Chelsea', logo: 'logos/chelsea.png' }, team2: { name: 'Paris Saint Germain', logo: 'logos/psg.png' } },
+                    { team1: { name: 'Juventus', logo: 'logos/juventus.png' }, team2: { name: 'Chelsea', logo: 'logos/chelsea.png' } }
                 ],
                 [
-                    { team1: { name: 'FC Barcelona', logo: 'logos/barcelona.png' }, team2: { name: 'Manchester City', logo: 'logos/mancity.png' } },
+                    { team1: { name: 'FC Barcelona', logo: 'logos/barcelona.png' }, team2: { name: 'Tottenham', logo: 'logos/tottenham.png' } },
                     { team1: { name: 'Real Madrid', logo: 'logos/realmadrid.png' }, team2: { name: 'FC Barcelona', logo: 'logos/barcelona.png' } },
-                    { team1: { name: 'Manchester City', logo: 'logos/mancity.png' }, team2: { name: 'Real Madrid', logo: 'logos/realmadrid.png' } }
+                    { team1: { name: 'Tottenham', logo: 'logos/tottenham.png' }, team2: { name: 'Real Madrid', logo: 'logos/realmadrid.png' } }
                 ],
                 [
-                    { team1: { name: 'Paris Saint Germain', logo: 'logos/psg.png' }, team2: { name: 'Manchester City', logo: 'logos/mancity.png' } },
-                    { team1: { name: 'Manchester United', logo: 'logos/manutd.png' }, team2: { name: 'FC Barcelona', logo: 'logos/barcelona.png' } },
+                    { team1: { name: 'Paris Saint Germain', logo: 'logos/psg.png' }, team2: { name: 'Tottenham', logo: 'logos/tottenham.png' } },
+                    { team1: { name: 'Chelsea', logo: 'logos/chelsea.png' }, team2: { name: 'FC Barcelona', logo: 'logos/barcelona.png' } },
                     { team1: { name: 'Juventus', logo: 'logos/juventus.png' }, team2: { name: 'Real Madrid', logo: 'logos/realmadrid.png' } }
                 ],
                 [
                     { team1: { name: 'FC Barcelona', logo: 'logos/barcelona.png' }, team2: { name: 'Juventus', logo: 'logos/juventus.png' } },
                     { team1: { name: 'Real Madrid', logo: 'logos/realmadrid.png' }, team2: { name: 'Paris Saint Germain', logo: 'logos/psg.png' } },
-                    { team1: { name: 'Manchester City', logo: 'logos/mancity.png' }, team2: { name: 'Manchester United', logo: 'logos/manutd.png' } }
+                    { team1: { name: 'Tottenham', logo: 'logos/tottenham.png' }, team2: { name: 'Chelsea', logo: 'logos/chelsea.png' } }
                 ]
             ]
         };

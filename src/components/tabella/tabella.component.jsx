@@ -8,10 +8,10 @@ class Tabella extends Component {
 
         this.state = {
             teams: [
-                { name: 'Tibi', team: 'Manchester United', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { name: 'Tibi', team: 'Chelsea', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
                 { name: 'Tibi', team: 'Real Madrid', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
                 { name: 'Bence', team: 'Juventus', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
-                { name: 'Bence', team: 'Manchester City', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
+                { name: 'Bence', team: 'Tottenham', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
                 { name: 'Tomi', team: 'Paris Saint Germain', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
                 { name: 'Tomi', team: 'FC Barcelona', matches: 0, scored: 0, got: 0, gd: 0, point: 0 },
             ]
