@@ -13,18 +13,18 @@ class Teams extends Component {
                 </div>
                 <div className="teams-content">
                     <div>{'Tibi'}</div>
-                    <div><img className="team-logo" src="logos/chelsea.png" alt="" /><span>{'Chelsea'}</span></div>
-                    <div><img className="team-logo" src="logos/realmadrid.png" alt="" /><span>{'Real Madrid'}</span></div>
+                    <div><img className="team-logo" src="logos/barcelona.png" alt="" /><span>{'FC Barcelona'}</span></div>
+                    <div><img className="team-logo" src="logos/mancity.png" alt="" /><span>{'Manchester City'}</span></div>
                 </div>
                 <div className="teams-content">
                     <div>{'Bence'}</div>
                     <div><img className="team-logo" src="logos/juventus.png" alt="" /><span>{'Juventus'}</span></div>
-                    <div><img className="team-logo" src="logos/tottenham.png" alt="" /><span>{'Tottenham'}</span></div>
+                    <div><img className="team-logo" src="logos/liverpool.png" alt="" /><span>{'Liverpool'}</span></div>
                 </div>
                 <div className="teams-content">
                     <div>{'Tomi'}</div>
                     <div><img className="team-logo" src="logos/psg.png" alt="" /><span>{'Paris Saint Germain'}</span></div>
-                    <div><img className="team-logo" src="logos/barcelona.png" alt="" /><span>{'FC Barcelona'}</span></div>
+                    <div><img className="team-logo" src="logos/realmadrid.png" alt="" /><span>{'Real Madrid'}</span></div>
                 </div>
             </div>
         );
